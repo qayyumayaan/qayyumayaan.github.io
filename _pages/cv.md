@@ -3,17 +3,15 @@ layout: archive
 title: "CV"
 permalink: /cv/
 author_profile: true
-redirect_from:
-  - /resume
 ---
 
 {% include base_path %}
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* High School Dipoma from Middlesex County Academy for STEM, 2022
+* B.S.E. in Electrical and Computer Engineering, 2026 (expected)
+* B.S. in Computer Science and Mathematics, 2026 (expected)
 
 Work experience
 ======
