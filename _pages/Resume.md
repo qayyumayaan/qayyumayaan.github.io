@@ -9,8 +9,5 @@ redirect_from:
 
 {% include base_path %}
 
-Resume
-======
-
 <embed src="https://qayyumayaan.github.io/files/resume.pdf" type="application/pdf" width="600px" height="500px" />
 
