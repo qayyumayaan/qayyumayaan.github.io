@@ -40,8 +40,47 @@
         </nav>
       </header>
 
-    <iframe src="https://drive.google.com/file/d/1YvoJ0igoEjdptYDLUi6ApgYux9V_SYbT/preview" width="100%" height="1000px"></iframe>
-
+      <style>
+        .iframe-container {
+          position: relative;
+          width: 100%;
+        }
+      
+        .responsive-iframe {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          border: 0;
+        }
+      </style>
+      
+      <div class="iframe-container">
+        <iframe class="responsive-iframe" src="https://drive.google.com/file/d/1YvoJ0igoEjdptYDLUi6ApgYux9V_SYbT/preview" frameborder="0" allowfullscreen data-aspect-ratio="9/16"></iframe>
+      </div>
+      
+      <script>
+        function resizeIframe() {
+          var iframeContainer = document.querySelector('.iframe-container');
+          var iframe = document.querySelector('.responsive-iframe');
+      
+          var aspectRatio = iframe.getAttribute('data-aspect-ratio');
+          var aspectRatioArray = aspectRatio.split('/');
+          var aspectRatioValue = parseInt(aspectRatioArray[1], 10) / parseInt(aspectRatioArray[0], 10);
+      
+          var containerWidth = iframeContainer.offsetWidth;
+          var newHeight = containerWidth * aspectRatioValue;
+      
+          iframe.style.height = newHeight + 'px';
+        }
+      
+        // Call resizeIframe on page load and whenever the window is resized
+        window.addEventListener('load', resizeIframe);
+        window.addEventListener('resize', resizeIframe);
+      </script>
+      
+          
 
 </body>
 
