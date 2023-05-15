@@ -1,2 +1,2 @@
-# legendary-lamp
-Attempt four for a resume website. 
+# Personal Website
+I tried very hard to use a template, but these templates were hundreds of megabytes in size and I had tons of issues just trying to deploy them. I ended up deciding to just make it myself. I used petite-vue and bootstrap CSS to have it be as lightweight as possible. We will see how my website holds over time. Hopefully I won't look back on this and throw everything in the trash. At least I can obtain solace that I made it myself from scratch. 
