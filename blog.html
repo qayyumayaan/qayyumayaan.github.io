@@ -23,6 +23,10 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
     <style>
+      .blog-post p:first-of-type::first-letter {
+        font-size: 2em;
+      }
+
       .bd-placeholder-img {
         font-size: 1.125rem;
         text-anchor: middle;
@@ -36,6 +40,8 @@
           font-size: 3.5rem;
         }
       }
+
+      
     </style>
 
     
@@ -128,6 +134,15 @@
       <h3 class="pb-4 mb-4 fst-italic border-bottom">
         Articles
       </h3>
+
+      <article class="blog-post">
+        <h2 class="blog-post-title">Album making troubles</h2>
+        <p class="blog-post-meta">May 29th, 2023 by <a href="#">Me</a></p>
+        <p>This is a continuation of my previous article! Please read it below.</p>
+        <p>There are 145,170 files and 775 folders in my father's picture archive. It totals a massive 358 GB in size, according to Windows File Explorer. I have to make this completely automated.</p>
+        <p>I also just found out that the face_recognition library I was using has a default threshold percentage of 60%, meaning that if a person detected has a 60% chance of being the same as a person in the dictionary, it counts. By the time my 1.0 version finished running, it had identified 668 "unique" people. By the 668th person, the probability of correctly identifying a unique person is 6.38 * 10^-149. This is so comically low of a success rate that the number of unique atoms in the universe is about 10^80. You are more likely to pick the same atom out of all the atoms in the universe than for my program to run as intended. Wow! The false positive percentage is too high. What to do? Well, the solution could be to have a very small dictionary of photos, and make sure these photos are incredibly high quality. </p>
+        <p>Now, how do we make this dictionary? Tthe issue is not iterating through all ~145k images. The issue is the facial recognition and the false positive rate. </p>
+      </article>
 
       <article class="blog-post">
         <h2 class="blog-post-title">Album making troubles</h2>
