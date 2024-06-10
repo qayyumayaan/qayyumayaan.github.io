@@ -24,7 +24,7 @@
   <style>
     .jumbotron {
       text-align: center;
-      background-image: url("assets/background.gif");
+      background-color: black;
       background-size: cover;
       background-repeat: no-repeat;
       background-position: center;
@@ -34,10 +34,11 @@
       justify-content: center;
       align-items: center;
       min-height: 100vh; 
+      overflow: hidden;
       margin: 0; 
       padding: 0;
     }
-  
+
     .jumbotron .lead,
     .jumbotron .featurette-heading {
       color: white;
@@ -56,6 +57,45 @@
         font-size: 3.5rem;
       }
     }
+
+    .firework {
+      position: absolute;
+      width: 20px; 
+      height: 20px;
+      background-color: gold; 
+      clip-path: polygon(
+      50% 0%, 
+      61% 35%, 
+      98% 35%, 
+      68% 57%, 
+      79% 91%, 
+      50% 70%, 
+      21% 91%, 
+      32% 57%, 
+      2% 35%, 
+      39% 35%
+    );
+      box-shadow: 0 0 15px 10px rgba(255, 215, 0, 0.75); 
+      z-index: 0; 
+      opacity: 0;
+      transform: scale(0);
+      transition: opacity 1.5s, transform 0.5s ease-out;
+    }
+
+    .star {
+      background-color: gold; 
+    }
+
+    .explode {
+      opacity: 1;
+      transform: scale(2); 
+    }
+
+    .fade-out {
+      opacity: 0;
+      transition: opacity 0.7s ease-in; 
+    }
+
   </style>
 
 
