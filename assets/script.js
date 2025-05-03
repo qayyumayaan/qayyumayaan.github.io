@@ -1,7 +1,6 @@
 // Wait for the DOM to load
 document.addEventListener('DOMContentLoaded', function() {
     const jumbotron = document.querySelector('.jumbotron');
-    let animationId;
 
     function createStarFirework(x, y) {
         const star = document.createElement('div');
@@ -24,16 +23,15 @@ document.addEventListener('DOMContentLoaded', function() {
         }, 1500); // Remove after the fade-out
     }
 
-    function animateFireworks() {
+    function spawnStar() {
         const windowWidth = window.innerWidth;
         const windowHeight = window.innerHeight;
         const startX = Math.random() * windowWidth;
         const startY = Math.random() * windowHeight;
 
         createStarFirework(startX, startY);
-
-        animationId = requestAnimationFrame(animateFireworks);
     }
 
-    animateFireworks(); 
+    // Spawn a star on a timer
+    setInterval(spawnStar, 50);
 });
