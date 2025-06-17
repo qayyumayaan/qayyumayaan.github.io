@@ -1,0 +1,323 @@
+[
+  {
+    "title": "Word and Character Counter",
+    "image": "assets/projectThumbnails/word-counter.png",
+    "description": "Demonstrating proficiency in being able to manipulate, read, and derive properties of strings.",
+    "date": "August 2024",
+    "links": [
+      { "label": "View", "url": "https://qayyumayaan.dev/word-counter.html" },
+      { "label": "Code", "url": "https://github.com/qayyumayaan/qayyumayaan.github.io" }
+    ]
+  },
+  {
+    "title": "Password Generator",
+    "image": "assets/projectThumbnails/password-generator.png",
+    "description": "Demonstrating proficiency in being able to generate random passwords by using effective random modules to generate a secure password.",
+    "date": "August 2024",
+    "links": [
+      { "label": "View", "url": "https://qayyumayaan.dev/password-generator/" },
+      { "label": "Code", "url": "https://github.com/qayyumayaan/qayyumayaan.github.io" }
+    ]
+  },
+  {
+    "title": "Quadratic Equation Generator",
+    "image": "assets/projectThumbnails/quad-generator.png",
+    "description": "Demonstrating proficiency in generating quadratic equations of all forms for the benefit of any user wanting to learn all about quadratic equations.",
+    "date": "July 2024",
+    "links": [
+      { "label": "View", "url": "https://qayyumayaan.dev/quadratic-equation-generator/" },
+      { "label": "Code", "url": "https://github.com/qayyumayaan/quadratic-equation-generator" }
+    ]
+  },
+  {
+    "title": "Image to ASCII Converter",
+    "image": "assets/projectThumbnails/image-to-ascii.png",
+    "description": "Demonstrating proficiency in converting image files into ASCII text art using open-source JavaScript libraries.",
+    "date": "July 2024",
+    "links": [
+      { "label": "View", "url": "https://qayyumayaan.dev/image-to-ascii/" },
+      { "label": "Code", "url": "https://github.com/qayyumayaan/image-to-ascii" }
+    ]
+  },
+  {
+    "title": "World City Map",
+    "image": "assets/projectThumbnails/world-map.png",
+    "description": "Demonstrating proficiency in plotting CSV coordinates of various global cities using open-source JavaScript libraries.",
+    "date": "July 2024",
+    "links": [
+      { "label": "View", "url": "https://qayyumayaan.dev/world-map/" },
+      { "label": "Code", "url": "https://github.com/qayyumayaan/world-map" }
+    ]
+  },
+  {
+    "title": "Rutgers IEEE Micromouse",
+    "image": "assets/projectThumbnails/micromouse.jpg",
+    "description": "Part of a team that secured 1st place in all categories at the NYIT-Long Island Micromouse Competition. Worked on the maze-solving algorithm.",
+    "date": "January – May 2024",
+    "links": [
+      { "label": "View", "url": "https://www.linkedin.com/posts/ayaan-qayyum_nyit-micromousecompetition-ieee-activity-7195295421399744513-YRSV" },
+      { "label": "Code", "url": "https://github.com/rutgers/Micromouse-v2/tree/capieeebara" }
+    ]
+  },
+  {
+    "title": "Bandpass Filter Design for Dynamic Signal Demultiplexing",
+    "image": "assets/projectThumbnails/pe2-project2.png",
+    "description": "Built a bandpass filter with a 10 dB gain used for signal demultiplexing in radio and Morse-code transmissions.",
+    "date": "April 2024",
+    "links": [
+      { "label": "Report", "url": "https://drive.google.com/file/d/1GDya5Uia6goPnU5IpbKzZO6nk9ZhLZT9/view?usp=sharing" }
+    ]
+  },
+  {
+    "title": "Intel SGX Demonstration",
+    "image": "assets/projectThumbnails/hss-lab2.png",
+    "description": "Demonstrating proficiency in running a digital wallet with SGX and executing the SGX program in hardware mode.",
+    "date": "March 2024",
+    "links": [
+      { "label": "Code", "url": "https://drive.google.com/drive/folders/1k8UKWfZavrhLwyvY04qC59bQ5CDdF1DD?usp=sharing" }
+    ]
+  },
+  {
+    "title": "Virtual TPM Demonstration",
+    "image": "assets/projectThumbnails/tpm.png",
+    "description": "Demonstrating proficiency in running TPM commands to read PCR values on a TPM 2.0 simulator.",
+    "date": "March 2024",
+    "links": [
+      { "label": "Code", "url": "https://drive.google.com/file/d/11P-5tzr2V1j-INhEcnMs5vJbUdIxDQq_/view?usp=sharing" }
+    ]
+  },
+  {
+    "title": "MunchMate",
+    "image": "assets/projectThumbnails/munch-mate.png",
+    "description": "A comprehensive platform for browsing restaurants, placing orders, interacting with reviews, and more, featuring a GPT-powered chatbot for real-time food recommendations.",
+    "date": "January –  May 2024",
+    "links": [
+      { "label": "Demo 1", "url": "https://youtu.be/lw58wDY5I10" },
+      { "label": "Demo 2", "url": "https://youtu.be/AdeGOJGsPjM" },
+      { "label": "Code", "url": "https://github.com/Xhrya/SoftEngineering" }
+    ]
+  },
+  {
+    "title": "Morse Code",
+    "image": "assets/projectThumbnails/morse-code.gif",
+    "description": "A tool to learn and transcribe Morse Code in real time, emulating real behavior and outputting shareable transcripts.",
+    "date": "November 2023",
+    "links": [
+      { "label": "View", "url": "https://www.qayyumayaan.dev/morse-code" },
+      { "label": "Code", "url": "https://github.com/qayyumayaan/morse-code" }
+    ]
+  },
+  {
+    "title": "Bank Account Management System",
+    "image": "",
+    "description": "A bank account management system written in Java. Implemented insertion sort for in-place display, improving times by 85 %.",
+    "date": "October 2023",
+    "links": [
+      { "label": "Code", "url": "https://github.com/qayyumayaan/ruBank" }
+    ]
+  },
+  {
+    "title": "Event Calendar Management System",
+    "image": "",
+    "description": "Command-line event-calendar software that improved room-booking efficiency by 50 % across multiple campus locations using Java.",
+    "date": "September 2023",
+    "links": [
+      { "label": "Code", "url": "https://github.com/qayyumayaan/eventorganizer" }
+    ]
+  },
+  {
+    "title": "QR Code",
+    "image": "assets/projectThumbnails/qr-code.gif",
+    "description": "A QR-code generator.",
+    "date": "August 2023",
+    "links": [
+      { "label": "View", "url": "https://www.qayyumayaan.dev/qr-maker" },
+      { "label": "Code", "url": "https://github.com/qayyumayaan/qr-maker" }
+    ]
+  },
+  {
+    "title": "Album Maker",
+    "image": "",
+    "description": "Build albums of people from a directory of photos using machine-learning facial recognition.",
+    "date": "June 2023",
+    "links": [
+      { "label": "Code", "url": "https://github.com/qayyumayaan/album-maker" }
+    ]
+  },
+  {
+    "title": "YouTube-USB",
+    "image": "assets/projectThumbnails/youtube-usb.gif",
+    "description": "Encode and decode data to and from the MPEG-4 video format losslessly. Accompanying paper attached.",
+    "date": "June 2023",
+    "links": [
+      { "label": "Paper", "url": "https://drive.google.com/file/d/10HpD_WROmphOtulsQrrnrra-EEOqzIlU/view?usp=sharing" },
+      { "label": "Code", "url": "https://github.com/qayyumayaan/youtube-usb" }
+    ]
+  },
+  {
+    "title": "PrivateGPT ChatBot",
+    "image": "assets/projectThumbnails/chatbot.gif",
+    "description": "A GPT-based research-focused LLM designed to answer inquiries about its training data. Runs locally using PyTorch and Electron.",
+    "date": "June 2023",
+    "links": [
+      { "label": "Code", "url": "https://github.com/qayyumayaan/chatbot" }
+    ]
+  },
+  {
+    "title": "Marketplace Messenger",
+    "image": "assets/projectThumbnails/marketplace-messenger.gif",
+    "description": "A Chromium extension that reminds users to stay mindful before entering online marketplaces. Published on the Chrome Web Store.",
+    "date": "June 2023",
+    "links": [
+      { "label": "View", "url": "https://chrome.google.com/webstore/detail/marketplace-messenger/hnplnffllmoghcigeddeekinmocfpchl" },
+      { "label": "Code", "url": "https://github.com/qayyumayaan/marketplace-messenger" }
+    ]
+  },
+  {
+    "title": "General Conversion Tools",
+    "image": "assets/projectThumbnails/Conversion-Tools.gif",
+    "description": "Conversion tools such as DOCX → HTML and conversions between hexadecimal, octal, binary and decimal. Written in React, Preact, and Vite.",
+    "date": "June 2023",
+    "links": [
+      { "label": "View", "url": "https://www.qayyumayaan.dev/conversion-tools" },
+      { "label": "Code", "url": "https://github.com/qayyumayaan/conversion-tools" }
+    ]
+  },
+  {
+    "title": "3D Fidget Spinner",
+    "image": "assets/projectThumbnails/Spinner_in_3D.gif",
+    "description": "A 3D fidget spinner made using Three.js, Vue, and Vite.",
+    "date": "May 2023",
+    "links": [
+      { "label": "View", "url": "https://www.qayyumayaan.dev/3d-spinner" },
+      { "label": "Code", "url": "https://github.com/qayyumayaan/3d-spinner" }
+    ]
+  },
+  {
+    "title": "3D Taurus",
+    "image": "assets/projectThumbnails/Taurus.gif",
+    "description": "A 3D spinning torus made with Three.js, Vue, and Vite as an introductory demo for 3D visualization.",
+    "date": "May 2023",
+    "links": [
+      { "label": "View", "url": "https://www.qayyumayaan.dev/3d-taurus" },
+      { "label": "Code", "url": "https://github.com/qayyumayaan/3d-taurus" }
+    ]
+  },
+  {
+    "title": "Percent Off Calculator",
+    "image": "assets/projectThumbnails/PercentOff.gif",
+    "description": "A tool for quickly calculating discounted prices.",
+    "date": "May 2023",
+    "links": [
+      { "label": "View", "url": "https://www.qayyumayaan.dev/percent-off-calc" },
+      { "label": "Code", "url": "https://github.com/qayyumayaan/percent-off-calc" }
+    ]
+  },
+  {
+    "title": "Tool for Engineering Economics",
+    "image": "assets/projectThumbnails/EngEco.gif",
+    "description": "A tool for calculating interest, principals, and other values, adapted from Rutgers University’s Engineering Economics coursework.",
+    "date": "May 2023",
+    "links": [
+      { "label": "View", "url": "https://www.qayyumayaan.dev/eng-eco" },
+      { "label": "Code", "url": "https://github.com/qayyumayaan/eng-eco" }
+    ]
+  },
+  {
+    "title": "Tetris",
+    "image": "assets/projectThumbnails/Tetris.gif",
+    "description": "A faithful Tetris clone.",
+    "date": "May 2023",
+    "links": [
+      { "label": "View", "url": "https://www.qayyumayaan.dev/tetris" },
+      { "label": "Code", "url": "https://github.com/qayyumayaan/tetris" }
+    ]
+  },
+  {
+    "title": "Fidget Spinner Simulation",
+    "image": "assets/projectThumbnails/Fidget.gif",
+    "description": "A simple, browser-based fidget spinner app.",
+    "date": "May 2023",
+    "links": [
+      { "label": "View", "url": "https://qayyumayaan.dev/fidget-spinner" },
+      { "label": "Code", "url": "https://github.com/qayyumayaan/fidget-spinner" }
+    ]
+  },
+  {
+    "title": "Mental Math Practice",
+    "image": "assets/projectThumbnails/mental-math.gif",
+    "description": "An elegant app for refining mental-math skills.",
+    "date": "May 2023",
+    "links": [
+      { "label": "View", "url": "https://qayyumayaan.dev/mental-math/" },
+      { "label": "Code", "url": "https://github.com/qayyumayaan/mental-math" }
+    ]
+  },
+  {
+    "title": "Double Pendulum Simulation",
+    "image": "assets/projectThumbnails/Pendulum.gif",
+    "description": "A JavaScript double-pendulum simulation demonstrating chaotic motion in an interactive manner.",
+    "date": "May 2023",
+    "links": [
+      { "label": "View", "url": "https://qayyumayaan.dev/DoublePendulumSimulation/" },
+      { "label": "Code", "url": "https://github.com/qayyumayaan/DoublePendulumSimulation" }
+    ]
+  },
+  {
+    "title": "Conway's Game of Life",
+    "image": "assets/projectThumbnails/conway.gif",
+    "description": "Conway’s Game of Life written in WebGPU, initializing a random board at startup.",
+    "date": "May 2023",
+    "links": [
+      { "label": "View", "url": "https://qayyumayaan.dev/webgpu/" },
+      { "label": "Code", "url": "https://github.com/qayyumayaan/webgpu" }
+    ]
+  },
+  {
+    "title": "Chess Board Bot",
+    "image": "assets/projectThumbnails/Chessboard.gif",
+    "description": "A simple chess board with an AI opponent featuring dynamic difficulty.",
+    "date": "April 2023",
+    "links": [
+      { "label": "View", "url": "https://qayyumayaan.dev/chess-bot" },
+      { "label": "Code", "url": "https://github.com/qayyumayaan/chess-bot" }
+    ]
+  },
+  {
+    "title": "Sudoku Solver",
+    "image": "assets/projectThumbnails/Sudoku.gif",
+    "description": "A Sudoku-solving site that uses recursive tree search to produce a valid solution.",
+    "date": "April 2023",
+    "links": [
+      { "label": "View", "url": "https://qayyumayaan.dev/sudoku-solver" },
+      { "label": "Code", "url": "https://github.com/qayyumayaan/sudoku-solver" }
+    ]
+  },
+  {
+    "title": "Visual Novel Demo",
+    "image": "assets/projectThumbnails/VisualNovel.gif",
+    "description": "The beginning of a visual-novel story coded in Ren’Py.",
+    "date": "April 2023",
+    "links": [
+      { "label": "Code", "url": "https://github.com/qayyumayaan/VisualNovel" }
+    ]
+  },
+  {
+    "title": "Kodesmos",
+    "image": "assets/projectThumbnails/Kodesmos.gif",
+    "description": "Turns an image or series of images into a video signal that can be reconstructed with minimal processing power.",
+    "date": "December 2022",
+    "links": [
+      { "label": "Code", "url": "https://github.com/qayyumayaan/Kodesmos" }
+    ]
+  },
+  {
+    "title": "9 CO2 Compartment Estimating",
+    "image": "assets/projectThumbnails/9CO2.png",
+    "description": "Provides numeric approximations of CO₂ per lung compartment using minimal equipment.",
+    "date": "September 2022",
+    "links": [
+      { "label": "Code", "url": "https://github.com/qayyumayaan/9-CO2" }
+    ]
+  }
+]
