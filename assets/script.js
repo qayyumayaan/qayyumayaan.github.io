@@ -36,10 +36,12 @@ document.addEventListener('DOMContentLoaded', function() {
     setInterval(spawnStar, 50);
 });
 
+// Project loader
 fetch('assets/projects.json')
   .then(r => r.json())
   .then(projects => {
     const container = document.querySelector('#projectContainer');
+    if (!container) return;
 
     projects.forEach((p, idx) => {
       const col = document.createElement('div');
@@ -48,7 +50,7 @@ fetch('assets/projects.json')
       const card = document.createElement('div');
       card.className = 'card h-100';
 
-      // ---------- Media Block ----------
+      // ---------- Media ----------
       if (Array.isArray(p.images) && p.images.length) {
         const cId = `carousel-${idx}`;
         card.innerHTML += `
@@ -74,22 +76,22 @@ fetch('assets/projects.json')
             <img src="${p.image}" class="card-img-top" alt="${p.title}">
           </div>`;
       } else {
-        // No image: apply a minimal class if desired
         card.classList.add('no-img');
       }
 
-      // ---------- Card Body ----------
+      // ---------- Body ----------
       const body = document.createElement('div');
-      body.className = 'card-body d-flex flex-column';
+      body.className = 'card-body d-flex flex-column py-2';
 
       body.innerHTML += `
-        <h5 class="card-title">${p.title}</h5>
-        <p class="card-text">${p.description}</p>
+        <h6 class="card-title mb-2">${p.title}</h6>
+        <p class="card-text small mb-3">${p.description}</p>
         <div class="d-flex justify-content-between align-items-center mt-auto">
-          <div class="btn-group">
-            ${p.viewLink ? `<a target="_blank" href="${p.viewLink}" class="btn btn-sm btn-outline-secondary">View</a>` : ''}
-            ${p.codeLink ? `<a target="_blank" href="${p.codeLink}" class="btn btn-sm btn-outline-secondary">Code</a>` : ''}
-          </div>
+        <div class="btn-group">
+          ${Array.isArray(p.links) ? p.links.map(link =>
+            `<a href="${link.url}" target="_blank" class="btn btn-sm btn-outline-secondary">${link.label}</a>`
+          ).join('') : ''}
+        </div>
           <small class="text-muted">${p.date}</small>
         </div>`;
 
