@@ -9,90 +9,92 @@
 
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
-  <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-XMFVC13WBE"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
-
     gtag('config', 'G-XMFVC13WBE');
   </script>
+
+  <style>
+    .iframe-container {
+      position: relative;
+      width: 100%;
+      padding-top: 177%; /* 9:16 aspect ratio */
+      height: 0;
+    }
+
+    .responsive-iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border: 0;
+    }
+
+    main {
+      padding-top: 70px; /* Prevent overlap with fixed navbar */
+    }
+  </style>
 </head>
 
 <body>
-
-    <header>
-        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-          <div class="container-fluid">
-            <a class="navbar-brand">Ayaan Qayyum</a>
-            
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarCollapse">
-              <ul class="navbar-nav me-auto mb-2 mb-md-0">
-                
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-                </li>
-      
-                <li class="nav-item">
-                  <a class="nav-link" href="blog.html">Blog</a>
-                </li>
-      
-                <li class="nav-item">
-                  <a class="nav-link" href="resume.html">Resume</a>
-                </li>
-      
-              </ul>
-            </div>
-          </div>
-        </nav>
-      </header>
-
-      <style>
-        .iframe-container {
-          position: relative;
-          width: 100%;
-        }
-      
-        .responsive-iframe {
-          position: absolute;
-          top: 0;
-          left: 0;
-          width: 100%;
-          height: 100%;
-          border: 0;
-        }
-      </style>
-      
-      <div class="iframe-container">
-        <iframe class="responsive-iframe" src="https://drive.google.com/file/d/1e4olR8AXiBdT8gBzCyOUzJl8gJPrw2FP/preview" frameborder="0" allowfullscreen data-aspect-ratio="9/16"></iframe>
+  <header>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand">Ayaan Qayyum</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav me-auto mb-2 mb-md-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.qayyumayaan.dev/blog">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="resume.html">Resume</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://docs.google.com/document/d/1pLnTeQCpvqD2xhdE142DebfEoQpkjKmAoGikXlzExng/edit?tab=t.0">View Resume Externally</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://docs.google.com/document/d/1pLnTeQCpvqD2xhdE142DebfEoQpkjKmAoGikXlzExng/edit?tab=t.tpgum7i971s2">View CV Externally</a>
+            </li>
+          </ul>
+        </div>
       </div>
-      
-      <script>
-        function resizeIframe() {
-          var iframeContainer = document.querySelector('.iframe-container');
-          var iframe = document.querySelector('.responsive-iframe');
-      
-          var aspectRatio = iframe.getAttribute('data-aspect-ratio');
-          var aspectRatioArray = aspectRatio.split('/');
-          var aspectRatioValue = parseInt(aspectRatioArray[1], 10) / parseInt(aspectRatioArray[0], 10);
-      
-          var containerWidth = iframeContainer.offsetWidth;
-          var newHeight = containerWidth * aspectRatioValue;
-      
-          iframe.style.height = newHeight + 'px';
-        }
-      
-        // Call resizeIframe on page load and whenever the window is resized
-        window.addEventListener('load', resizeIframe);
-        window.addEventListener('resize', resizeIframe);
-      </script>
-      
-          
+    </nav>
+  </header>
+
+  <main>
+    <div class="iframe-container">
+      <iframe class="responsive-iframe" src="https://docs.google.com/document/d/1pLnTeQCpvqD2xhdE142DebfEoQpkjKmAoGikXlzExng/preview" frameborder="0" allowfullscreen data-aspect-ratio="9/16"></iframe>
+    </div>
+  </main>
+
+  <script>
+    function resizeIframe() {
+      var iframeContainer = document.querySelector('.iframe-container');
+      var iframe = document.querySelector('.responsive-iframe');
+
+      var aspectRatio = iframe.getAttribute('data-aspect-ratio');
+      var aspectRatioArray = aspectRatio.split('/');
+      var aspectRatioValue = parseInt(aspectRatioArray[1], 10) / parseInt(aspectRatioArray[0], 10);
+
+      var containerWidth = iframeContainer.offsetWidth;
+      var newHeight = containerWidth * aspectRatioValue;
+
+      iframe.style.height = newHeight + 'px';
+    }
+
+    window.addEventListener('load', resizeIframe);
+    window.addEventListener('resize', resizeIframe);
+  </script>
 
 </body>
-
 </html>
