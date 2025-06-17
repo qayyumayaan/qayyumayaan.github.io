@@ -1,5 +1,20 @@
 [
   {
+    "title": "Unmanned Wireless Penetration Testing Device",
+    "description": "2nd-place senior capstone (2 / 50 teams) that automates wireless recon and penetration-testing from an autonomous quadcopter.",
+    "date": "April 2025"
+  },
+  {
+    "title": "News Sentiment Embeddings for Stock Price Forecasting",
+    "description": "Transformer-based NLP model that learns sentiment vectors from financial-news headlines to predict next-day S&P 500 movement.",
+    "date": "May 2025"
+  },
+  {
+    "title": "FFT-on-FPGA Learning Tool",
+    "description": "Hand-coded Verilog FFT core with interactive demo; published at IEEE ISEC 2025.",
+    "date": "March 2025"
+  },
+  {
     "title": "Word and Character Counter",
     "image": "assets/projectThumbnails/word-counter.png",
     "description": "Demonstrating proficiency in being able to manipulate, read, and derive properties of strings.",
