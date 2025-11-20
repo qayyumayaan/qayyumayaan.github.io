@@ -59,7 +59,7 @@ p a {
 }
 
 p a:hover {
-  color: var(--text-soft);
+  color: blue;
   text-decoration: underline;
 }
 
